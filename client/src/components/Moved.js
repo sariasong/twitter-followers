@@ -30,7 +30,7 @@ class Moved extends React.Component {
       <Motion key={id} defaultStyle={{x, y}} style={{x, y}}>
         { avatar =>
             <div
-              onClick={() => this.props.addFollower(id) }
+              onClick={() => this.props.addFollower(id)}
               style={{
                 borderRadius: '99px',
                 backgroundColor: 'white',
